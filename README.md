@@ -103,6 +103,8 @@ For the Skaboard Lite, ignore steps 2, 3 and 8. Then directly attach the silicon
 ### Firmware
 To access the Pico for flashing the firmware, you will need to unscrew the bottom section of the case. The underside of the baseplate PCB has small labeled holes for the <ins>U</ins>ser, <ins>R</ins>eset and <ins>B</ins>oot buttons.
 
+![Buttons on the Pico visible underneath the baseplate PCB](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/picobuttonaccess.JPG)
+
 To flash the firmware, you can plug in the Pico while holding down the Boot button. Alternatively, while already plugged in: hold Reset, hold Boot, release Reset, release Boot.
 
 Included in this repository is a basic firmware that lets the keyboard connect to [Plover](https://opensteno.org/plover/) using Gemini PR.
