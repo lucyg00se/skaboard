@@ -5,7 +5,7 @@ There are a few changes I would still like to make that may come in the form of 
 
 ![Skaboard v3](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/skaboard.JPG)
 
-**This page is currently a work in progress**
+**This page is currently a work in progress, some files are missing.**
 
 ---
 
