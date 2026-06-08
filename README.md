@@ -1,7 +1,9 @@
-# Skaboard
+<img width="5472" height="3648" alt="06081704" src="https://github.com/user-attachments/assets/3f29f4e1-3b8b-4853-8448-06ad5f17f9ed" /># Skaboard
 This repository contains all the relevant files and instructions for making the Skaboard, a split stenographic keyboard.
 
 There are a few changes I would still like to make that may come in the form of a version 4, but for now I'd just like to get a version of this made available.
+
+![Skaboard v3](https://github.com/lucyg00se/images/skaboard.jpg)
 
 **This page is currently a work in progress**
 
@@ -60,14 +62,25 @@ I got the rest of my parts from [The Pi Hut](https://thepihut.com/) and [AliExpr
 ### Recipe
 1. Preheat oven to 200C. (this is a joke)
 2. Cut two bottom pads from the 1mm foam and puncturing holes for the screws by using one of the PCBs as a template.
+
 ![Cutting the foam using the base plate as a template](https://github.com/lucyg00se/images/cutfoam.jpg)
+
 3. Glue the foam pads to the 'top' covers (this will function as the bottom of the case)
+
+![The bottom of the case](https://github.com/lucyg00se/images/foambottom.jpg)
+
 4. Solder the Kailh sockets and the IDC sockets onto the PCBs
+
 ![The underside of the baseplate PCB after soldering](https://github.com/lucyg00se/images/baseplateunderside.jpg)
+
 5. Solder the Pico ***upside-down*** onto the ***right-hand board*** using the headers. The USB port on the Pico will make it ride up slightly and not sit flush - this is normal.
+
 ![The Pico riding up a little](https://github.com/lucyg00se/images/picocloseup.jpg))
+
 6. Snip the ends of the header pins flush with the PCB and the Pico.  This is the most finicky step, and you will probably not get it perfectly flush, but this is fine.
+
 ![Flush pins close-up](https://github.com/lucyg00se/images/flushpins.jpg)
+
 7. At this point, you may wish to attach the keyswitches and keycaps and flash your firmware.
 8. Assemble the case. From the top down, the stack is:
    - Regular 2M screws
@@ -78,8 +91,14 @@ I got the rest of my parts from [The Pi Hut](https://thepihut.com/) and [AliExpr
    - Foam bottom 
    - ⌀7mm wide head 2M screws
    - ⌀7mm silicon feet (note that the silicon feet sit directly on the wide head screws)
-![Screw assembly seen from the side-on](https://github.com/lucyg00se/images/screwstack.jpg)
+
+![Exploded view of case](https://github.com/lucyg00se/images/explodedview.jpg)
+
+![Screw assembly seen from the side-on](https://github.com/lucyg00se/images/screwstackfeet.jpg)
+
 Then join the two sides with the IDC cable and you're done! You may also want to use a USB-C right angle adapter to make plugging in the keyboard easier.
+
+For the Skaboard Lite, ignore steps 2, 3 and 8. Then directly attach the silicon feet to the PCB.
 
 ### Firmware
 To access the Pico for flashing the firmware, you will need to unscrew the bottom section of the case. The underside of the baseplate PCB has small labeled holes for the <ins>U</ins>ser, <ins>R</ins>eset and <ins>B</ins>oot buttons.
