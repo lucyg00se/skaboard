@@ -3,7 +3,7 @@ This repository contains all the relevant files and instructions for making the 
 
 There are a few changes I would still like to make that may come in the form of a version 4, but for now I'd just like to get a version of this made available.
 
-![Skaboard v3](https://github.com/lucyg00se/images/skaboard.jpg)
+![Skaboard v3](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/skaboard.JPG)
 
 **This page is currently a work in progress**
 
@@ -30,7 +30,7 @@ For the regular ***Skaboard***, you will need:
 - 1mm foam sheet
 - USB-C right angle connector (optional but.)
 
-![Photo of the items needed to make a Skaboard](https://github.com/lucyg00se/images/skaboardknoll.jpg)
+![Photo of the items needed to make a Skaboard](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/skaboardknoll.JPG)
 
 For the ***Skaboard Lite***, you will need:
 - Lite Baseplate PCB x2
@@ -43,7 +43,7 @@ For the ***Skaboard Lite***, you will need:
 - Raspberry Pi Pico headers x2
 - Silicon feet x8
 
-![Photo of the items needed to make a Skaboard Lite](https://github.com/lucyg00se/images/skaboardliteknoll.jpg)
+![Photo of the items needed to make a Skaboard Lite](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/skaboardliteknoll.JPG)
 
 You will also need a few tools:
 - Soldering iron and solder
@@ -55,7 +55,7 @@ You will also need a few tools:
 ### Where to get the ingredients
 The Gerber files for the PCBs are included in the GitHub. You can upload these to [JLCPCB](https://jlcpcb.com/), [PCBWay](https://www.pcbway.com/), or another PCB manufacturer to get them made. I got mine made by JLCPCB.
 
-![Example of getting PCB made through JLCPCB](https://github.com/lucyg00se/images/jlcpcb.jpg)
+![Example of getting PCB made through JLCPCB](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/jlcpcb.jpg)
 
 I got the rest of my parts from [The Pi Hut](https://thepihut.com/) and [AliExpress](https://www.aliexpress.com/).
 
@@ -63,23 +63,23 @@ I got the rest of my parts from [The Pi Hut](https://thepihut.com/) and [AliExpr
 1. Preheat oven to 200C. (this is a joke)
 2. Cut two bottom pads from the 1mm foam and puncturing holes for the screws by using one of the PCBs as a template.
 
-![Cutting the foam using the base plate as a template](https://github.com/lucyg00se/images/cutfoam.jpg)
+![Cutting the foam using the base plate as a template](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/cutfoam.JPG)
 
 3. Glue the foam pads to the 'top' covers (this will function as the bottom of the case)
 
-![The bottom of the case](https://github.com/lucyg00se/images/foambottom.jpg)
+![The bottom of the case](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/foambottom.JPG)
 
 4. Solder the Kailh sockets and the IDC sockets onto the PCBs
 
-![The underside of the baseplate PCB after soldering](https://github.com/lucyg00se/images/baseplateunderside.jpg)
+![The underside of the baseplate PCB after soldering](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/baseplateunderside.JPG)
 
 5. Solder the Pico ***upside-down*** onto the ***right-hand board*** using the headers. The USB port on the Pico will make it ride up slightly and not sit flush - this is normal.
 
-![The Pico riding up a little](https://github.com/lucyg00se/images/picocloseup.jpg))
+![The Pico riding up a little](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/picocloseup.JPG)
 
 6. Snip the ends of the header pins flush with the PCB and the Pico.  This is the most finicky step, and you will probably not get it perfectly flush, but this is fine.
 
-![Flush pins close-up](https://github.com/lucyg00se/images/flushpins.jpg)
+![Flush pins close-up](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/flushpins.JPG)
 
 7. At this point, you may wish to attach the keyswitches and keycaps and flash your firmware.
 8. Assemble the case. From the top down, the stack is:
@@ -92,9 +92,9 @@ I got the rest of my parts from [The Pi Hut](https://thepihut.com/) and [AliExpr
    - ⌀7mm wide head 2M screws
    - ⌀7mm silicon feet (note that the silicon feet sit directly on the wide head screws)
 
-![Exploded view of case](https://github.com/lucyg00se/images/explodedview.jpg)
+![Exploded view of case](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/explodedview.JPG)
 
-![Screw assembly seen from the side-on](https://github.com/lucyg00se/images/screwstackfeet.jpg)
+![Screw assembly seen from the side-on](https://raw.githubusercontent.com/lucyg00se/skaboard/refs/heads/main/images/screwstackfeet.JPG)
 
 Then join the two sides with the IDC cable and you're done! You may also want to use a USB-C right angle adapter to make plugging in the keyboard easier.
 
