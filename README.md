@@ -1,4 +1,4 @@
-<img width="5472" height="3648" alt="06081704" src="https://github.com/user-attachments/assets/3f29f4e1-3b8b-4853-8448-06ad5f17f9ed" /># Skaboard
+# Skaboard v3
 This repository contains all the relevant files and instructions for making the Skaboard, a split stenographic keyboard.
 
 There are a few changes I would still like to make that may come in the form of a version 4, but for now I'd just like to get a version of this made available.
