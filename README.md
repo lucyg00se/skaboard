@@ -107,6 +107,16 @@ To access the Pico for flashing the firmware, you will need to unscrew the botto
 
 To flash the firmware, you can plug in the Pico while holding down the Boot button. Alternatively, while already plugged in: hold Reset, hold Boot, release Reset, release Boot.
 
-Included in this repository is a basic firmware that lets the keyboard connect to [Plover](https://opensteno.org/plover/) using Gemini PR.
+Included in this repository is a basic firmware that lets the keyboard connect to [Plover](https://opensteno.org/plover/) using Gemini PR. There are two files:
 
-Also included is a key map for building a firmware with [Javelin](https://github.com/jthlim/javelin-steno).
+- `skaboard_v3_metakey.uf2` treats the outer thumb keys as a 'meta' (i.e., windows key on Windows, command key on Mac) key. I use this, since I use my upper `S-` as my number key.
+
+- `skaboard_v3_numkey.uf2` treats the outer thumb keys as the number key (i.e., a thumber key). This would be the 'standard' way of using that key on such a steno keyboard.
+
+You are of course welcome to write your own firmware. The keys are directly wired to the Raspberry Pi pins so it's the simplest kind of firmware possible to make.
+
+---
+
+## To do
+
+Included key map for building firmware with [Javelin](https://github.com/jthlim/javelin-steno). Note that it is only possible to use Javelin if you have a Raspberry Pi with enough storage (i.e., a 16MB model).
