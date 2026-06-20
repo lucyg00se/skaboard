@@ -7,6 +7,8 @@ There are a few changes I would still like to make that may come in the form of 
 
 **This page is currently a work in progress, some files are missing.**
 
+<a href="https://github.com/lucyg00se/skaboard/">Skaboard</a> © 2025 by <a href="https://github.com/lucyg00se/">Lucy Deacon</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
 ---
 
 ## What's a Skaboard?
